@@ -70,7 +70,7 @@ function endgame(){
   function startGame() {
 const startBtn = document.querySelector('.startBtn')
     startBtn.addEventListener('click' , function newGame() {
-      location.href = 'indes.html'
+      location.href = 'index.html'
     }
     
     )

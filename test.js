@@ -41,14 +41,14 @@ btn.addEventListener('click', e => {
   else{ 
   checkGuess(guess)
   displayMessage(`Sorry Game Over. Better Luck Next Time 🤦🥵 Secret Number was: ${randomNum}`)
-  remainingGuess.innerHTML = 'finished Chances 0'
+  remainingGuess.innerHTML = 'finished All The Chances 0'
   endgame()}}}
 
 function checkGuess(guess) {
 if(guess < randomNum){
-  displayMessage('Hint: Number is low 👎')}
+  displayMessage('Hint: Guess Number is too low 👎')}
 else if(guess > randomNum){
-  displayMessage('Hint: Number is high 👍')}}
+  displayMessage('Hint: Guess Number is high 👍')}}
 
 
 function incrementAttempt(guess) {

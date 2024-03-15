@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Please write me a song';
+  margin-top: 20px;
+}
+.board{
+  max-width: 50%;
+  background: linear-gradient(rgb(136, 0, 255),rgb(255, 179, 0));
+  margin: auto;
+  text-align: center;
+  border-radius: 0.5em;
+  padding: 20px;
+  
+}
+@media screen and (max-width: 740px) {
+  .board{
+    max-width: 88%;
+  }
+
+}
+
+
+h4,h2,h3{
+padding: 15px 0px;
+margin-top: 10px;
+font-family: "Oswald", sans-serif;
+font-size: 25px;
+letter-spacing: 1px;
+}
+h5{
+  font-size: 35px;
+  font-family: 'DS-Digital';
+}
+h4{
+  font-size: 50px;
+  padding: 10px 0px;
+}
+h3{
+  font-family: 'DS-Digital';
+  font-size: 40px;
+}
+h1{
+  font-size: 60px;
+}
+p{
+  font-size: 50px;
+  font-weight: 700;
+}
+#userInput{
+  width: 30% ;
+  padding: 15px 0px;
+  border: none;
+  outline: none;
+  background: linear-gradient(rgb(18, 7, 7),rgb(114, 57, 57));
+  color: antiquewhite;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 0.4em;
+  font-family: 'DS-Digital';
+
+}
+#submitBtn{
+  padding: 15px 30px;
+  margin-top: 10px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  border-radius: 0.3em;
+  background: linear-gradient(red, pink);
+  font-family: "Oswald";
+  cursor: pointer;
+  background-color: aqua;
+
+}
+.startBtn{
+  padding: 15px 30px;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 0.3em;
+  background: linear-gradient(rgb(33, 15, 174), rgb(191, 60, 0));
+  font-family: 'roboto';
+  cursor: pointer;
+  color: beige;
+}
